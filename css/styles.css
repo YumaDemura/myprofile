@@ -1,0 +1,274 @@
+html {
+  font-family: Times New Roman;
+  margin: 0;
+  }
+
+  body {
+  margin: 0 auto;
+  position: relative;
+  }
+
+  .main-image{
+  width: 100%;
+  height:1000px;  
+  font-size: 30px;
+  }
+
+  header {
+  background: rgb(43, 42, 42);
+  height: 100px;
+  opacity: 0.8;
+  position: fixed;            
+  top: 0px;
+  left: 0px;                  
+  width: 100%;
+  z-index: 10;
+  }
+
+  header ul {
+  list-style: none;
+  float: right;
+  }
+
+  header li {
+  display: inline-block;
+  font-size: 30px;
+  padding: 15px 20px;
+  }
+
+
+  header a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  padding: 1px 10px;
+  background:rgb(243, 243, 247);
+  border-radius: 10px;
+  box-shadow: 0px 6px 3px rgba(163, 44, 44, 0.6);
+  }
+
+  header a:hover {
+  position: relative; top: 3px; left: 3px; 
+  }
+
+  .section-top h1{
+  position: absolute;
+  top: 300px;
+  text-align: center;
+  width: 100%;
+  font-size: 150px;
+  }
+
+  .about-container {
+  max-width: 70%;
+  margin-left: 300px ;
+  padding-top: 70px;
+  margin: 0 auto;
+  }
+
+  .about-coments {
+  display: inline;
+  }
+
+  .about {
+  background: rgb(249, 249, 252);
+  height: 800px;
+  width:100%;
+  text-align: center;
+  font-size: 30px;
+  }
+
+  .about h1 {
+  margin: 0;
+  padding-top:100px;
+  font-size: 50px;
+  }
+
+  .about h2 {
+  text-align: left;
+  }
+
+  .about p {
+  font-size: 20px;
+  text-align: left;
+  }
+
+  .img-picture {
+  float: left;
+  margin-right: 30px;
+  border-radius: 100px;
+  }
+
+
+
+  .hobby {
+  background-color: rgb(10, 10, 10);
+  height: 800px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  }
+  
+  .hobby h1 {
+  margin: 0;
+  padding-top:100px
+  }
+
+  .hobby-container {
+  margin: 0 auto;
+  max-width: 100%;
+  }
+
+  .hobby-container li{
+  list-style: none;
+  display: inline-block;
+  padding:20px;
+  }
+
+  .hobby-container p {
+  font-size: 18px;
+  }
+
+  .contact-form {
+  height: 800px;
+  background: rgb(247, 245, 245);
+  color: rgb(65, 63, 63);
+  text-align: center;
+  }
+
+  .contact-form h1 {
+  margin: 0;
+  padding:100px;
+  font-size: 50px;
+  }
+
+  .item {
+  overflow: hidden ;
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  input[type="text"],input[type="email"]{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding:6px 30px;
+  font-size: 10x;
+  }
+
+  textarea{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding: 10px;
+  height: 160px;
+  font-size: 15px;
+  }
+
+  input[type="submit"]{
+  background: #9b121d;
+  border: none;
+  color: white;
+  font-size:17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+  }
+
+  input[type="phone"] {
+  padding:10px 50px;
+  }
+
+  .item {
+  font-size:30px
+  }
+
+  footer {
+  height: 100px;
+  background:rgb(41, 41, 41);
+  }
+
+
+  @media screen and (max-width: 1025px){
+
+  .hobby {
+  height: 1100px;
+  }
+  .hobby li {
+  display: block;
+  }
+
+  .section-top h1{
+  font-size: 100px;
+  }
+
+  header li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 8px 4px;
+  }
+
+  .about h1 {
+  font-size: 100x;
+  }
+  .about p {
+  font-size: 13pxx
+  }
+
+  .hobby {
+  height:1500px;
+  }
+
+  }
+
+  @media screen and (max-width: 760px){
+
+
+  .hobby {
+  height: 1600px;
+  }
+
+  .hobby li {
+  display: block;
+  }
+
+  .about {
+  height: 1100px;
+  }
+
+  .about-coments h2{
+  display: inline-block;
+  margin-top:30px;
+  }
+
+  @media screen and (max-width: 479px){
+
+  header ul {
+  margin-top: 22px;
+  }
+
+  header a {
+  font-size: 15px;
+  padding: 10px 10px;
+  display: inline-block;
+    }
+
+  .about {
+  height:1000px;
+  }
+
+  .main-image {
+  height: 600px
+  }
+
+  .img-picture {
+  width: 250px;
+  height: 300px;
+  }
+
+  .section-top h1 {
+  margin-top:0;
+  font-size: 60px;  
+  }
+
+  .hobby-container ul {
+  padding-right: 70px;
+  }
